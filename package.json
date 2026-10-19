@@ -1,0 +1,27 @@
+{
+  "name": "reliability-benchmark",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Compare baseline and multi-agent outcomes on fixed tasks.",
+  "main": "reliability-benchmark.js",
+  "exports": {
+    ".": "./reliability-benchmark.js"
+  },
+  "files": [
+    "reliability-benchmark.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "reliability-benchmark"
+  ],
+  "license": "MIT"
+}
